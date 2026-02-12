@@ -1,6 +1,6 @@
 Task 1 – Data Cleaning & Preprocessing Summary
 
-Data cleaning and preprocessing were performed on the Netflix Movies and TV Shows dataset using Excel to improve data quality and ensure analysis readiness.
+Data cleaning and preprocessing were performed on the Netflix Movies and TV Shows dataset using Excel and Python to improve data quality and ensure analysis readiness.
 
 Missing values were identified using filters and conditional formatting. Null values in categorical fields were handled by imputation: Director was filled with “Unknown,” Cast with “No Cast Listed,” and Country with the mode value (United States). Rows with blank values in the Date Added column were removed. Missing values in Rating and Duration were filled with “Unknown.”
 
