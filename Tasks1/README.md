@@ -1,5 +1,13 @@
 # Data Cleaning & Preprocessing – Task 1
 
+## Project Files
+- **Cleaned_File.xlsx** – Dataset cleaned using Excel  
+- **Python_cleaned_netflix.xlsx** – Dataset cleaned using Python (Pandas)  
+- **Task 1.pptx** – Presentation outlining the data cleaning process  
+- **Netflix_Cleaned.ipynb** – Python notebook containing the cleaning code  
+- **Dataset.zip** – Raw dataset used for the task
+---
+
 ## Project Summary
 Data cleaning and preprocessing were performed on the Netflix Movies and TV Shows dataset using Excel to improve data quality and ensure analysis readiness.
 
@@ -46,3 +54,6 @@ The same data cleaning and preprocessing steps were implemented using Python (Pa
 
 ## Author
 Priya Hadapad
+
+
+
