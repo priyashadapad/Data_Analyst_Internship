@@ -1,15 +1,48 @@
-Task 1 – Data Cleaning & Preprocessing Summary
+# Data Cleaning & Preprocessing – Task 1
 
-Data cleaning and preprocessing were performed on the Netflix Movies and TV Shows dataset using Excel and Python to improve data quality and ensure analysis readiness.
+## Project Summary
+Data cleaning and preprocessing were performed on the Netflix Movies and TV Shows dataset using Excel to improve data quality and ensure analysis readiness.
 
-Missing values were identified using filters and conditional formatting. Null values in categorical fields were handled by imputation: Director was filled with “Unknown,” Cast with “No Cast Listed,” and Country with the mode value (United States). Rows with blank values in the Date Added column were removed. Missing values in Rating and Duration were filled with “Unknown.”
+## Data Cleaning Steps
 
-Duplicate records were removed to eliminate redundancy and prevent analytical distortion.
+### Handling Missing Values
+- Identified missing values using filters and conditional formatting  
+- Imputed categorical fields:
+  - Director → "Unknown"
+  - Cast → "No Cast Listed"
+  - Country → Mode value (United States)
+- Eliminated blank rows in Date, Duration, and Rating columns  
 
-Data types were standardized by converting Date Added to Date format and Release Year to Whole Number to enable accurate filtering and calculations.
+### Removing Duplicates
+- Removed duplicate records to prevent redundancy and analytical distortion  
 
-A conditional column was created to classify Duration (minutes vs. seasons), supporting correct duration-based analysis.
+### Data Type Standardization
+- Converted "date_added" to Date format  
+- Converted Release Year to Whole Number  
 
-Comma-separated fields were normalized into separate tables to improve category-wise analysis and visualization.
+### Feature Engineering
+- Created conditional column: **Duration in mins**
+  - Distinguished durations in minutes for accurate analysis  
 
-The Description column was cleaned by trimming spaces and converting text to lowercase. Additionally, a conditional column was created to identify murder-related content for focused analysis.
+### Data Normalization
+- Split comma-separated values in **listed_in**
+- Created separate table (**Categorize the List** sheet)
+
+### Text Cleaning
+- Cleaned Description column:
+  - Trimmed spaces
+  - Converted to lowercase  
+
+### Conditional Analysis Column
+- Added column: **"Murder Series?"**
+  - Identified murder-related content  
+
+## Python Validation
+The same data cleaning and preprocessing steps were implemented using Python (Pandas) to validate results and strengthen technical proficiency.
+
+## Tools Used
+- Microsoft Excel  
+- Python (Pandas)
+
+## Author
+Priya Hadapad
